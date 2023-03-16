@@ -14,12 +14,10 @@ const Navbar = () => {
     <Router>
       <div className="navbar">
         <ul className="left-nav">
-            <ul className="logo-container">
-                <li className="logo">
-                    TMDB
-                </li>
-                <li className="logo-color"></li>
-            </ul>
+          <ul className="logo-container">
+            <li className="logo">TMDB</li>
+            <li className="logo-color"></li>
+          </ul>
           <li className="w3-dropdown-hover w3-mobile li-nav">
             Movie
             <ul className="w3-dropdown-content list-li w3-bar-block w3-dark-white">
@@ -84,7 +82,7 @@ const Navbar = () => {
 
         <ul className="right-nav">
           <li className="li-nav">
-            <FaPlus/>
+            <FaPlus />
           </li>
           <li className="li-nav">EN</li>
           <li className="li-nav">Login</li>
