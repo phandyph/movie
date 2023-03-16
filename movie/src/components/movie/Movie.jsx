@@ -16,5 +16,5 @@ const Movie = () => {
 };
 
 export default Movie;
-// git switch -c new-branch: git switch -c layout (I have create new branch (layout))
-// git branch -a: to see list of branch.
+
+
